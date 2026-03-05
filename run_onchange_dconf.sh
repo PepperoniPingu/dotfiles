@@ -43,6 +43,7 @@ dconf_write /org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/cus
 dconf_write /org/gnome/desktop/wm/keybindings/switch-input-source "['<Alt>space']"
 dconf_write /org/gnome/desktop/wm/keybindings/switch-input-source-backward "['<Shift><Alt>space']"
 dconf_write /org/gnome/desktop/wm/keybindings/activate-window-menu "@as []"
+dconf_write /org/gnome/desktop/wm/keybindings/close "['<Primary><Shift>w']"
 
 # ---------------------------------------------------------------------------
 # Extensions
