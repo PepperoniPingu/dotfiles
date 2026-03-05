@@ -106,3 +106,8 @@ alias cat="bat -pp"
 alias icat="kitten icat"
 
 bindkey '^H' backward-kill-word
+
+export PATH="$HOME/.local/bin:$PATH"
+
+# embedder
+export PATH="$HOME/.embedder/bin:$PATH"
