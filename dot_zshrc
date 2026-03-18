@@ -111,3 +111,6 @@ export PATH="$HOME/.local/bin:$PATH"
 
 # embedder
 export PATH="$HOME/.embedder/bin:$PATH"
+
+# ST
+export STM32_PRG_PATH="/home/hugofrisk/Documents/STM32CubeProgrammer/bin"
