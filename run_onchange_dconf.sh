@@ -21,6 +21,7 @@ dconf_write /org/gnome/desktop/interface/show-battery-percentage "true"
 dconf_write /org/gnome/desktop/interface/clock-show-seconds "true"
 dconf_write /org/gnome/desktop/interface/clock-format "'24h'"
 dconf_write /org/gnome/desktop/calendar/show-weekdate "true"
+dconf_write /org/gnome/system/locale/region "'sv_SE.UTF-8'"
 
 # ---------------------------------------------------------------------------
 # Input sources
