@@ -27,3 +27,5 @@ vim.cmd("colorscheme kanagawa")
 vim.opt.number = true         -- Show line numbers
 vim.opt.relativenumber = true -- Great for jumping around
 vim.opt.mouse = 'a'           -- Let's you use the mouse if you get stuck
+vim.opt.textwidth = 120       -- Wrap lines at 120 chars
+vim.opt.colorcolumn = "120"   -- Visual guide at 120 chars
