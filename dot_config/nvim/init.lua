@@ -16,6 +16,9 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup({
   -- The theme you wanted
   { "rebelot/kanagawa.nvim", priority = 1000 },
+
+  -- Automatically detect and set indentation (tabs vs spaces + width)
+  { "tpope/vim-sleuth", lazy = false },
   
   -- Add other plugins here in the future
 })
